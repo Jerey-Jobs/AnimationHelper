@@ -8,7 +8,6 @@
     tools:context="com.jerey.animationhelper.MainActivity">
 
 
-
     <ImageView
         android:id="@+id/img"
         android:layout_width="match_parent"
@@ -18,14 +17,23 @@
 
     <Button
         android:id="@+id/show"
-        android:layout_marginTop="100dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="show" />
+        android:layout_marginTop="100dp"
+        android:text="show"
+        android:layout_gravity="center_horizontal"/>
 
     <Button
         android:id="@+id/hide"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="hide" />
+        android:text="hide"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/startactivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="startActivity" />
 </LinearLayout>
