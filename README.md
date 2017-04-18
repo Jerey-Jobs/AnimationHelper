@@ -26,7 +26,7 @@ module's build.gradle (模块的build.gradle)
 
 ``` gradle
 	dependencies {
-	         compile 'com.github.Jerey-Jobs:LogTools:0.1'
+	         compile 'com.github.Jerey-Jobs:AnimationHelper:1.0'
 	}
 ```
 
